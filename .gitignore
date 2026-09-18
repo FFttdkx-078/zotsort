@@ -1,0 +1,23 @@
+# Dependencies
+frontend/node_modules/
+backend/__pycache__/
+backend/*.pyc
+
+# Build output
+frontend/dist/
+
+# Database (local only, contains personal data)
+zotsort.db
+
+# Environment & secrets
+.env
+.env.local
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
